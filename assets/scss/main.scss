@@ -1,0 +1,41 @@
+
+
+.material-icons{
+
+    color:$color-gray;
+}
+
+.bg-green {
+
+    background-color:$primary-color;
+}
+.color-green {
+
+   color: $primary-color;
+}
+
+.bg-green-300 {
+
+    background-color:$primary-color-300;
+}
+.color-green-300 {
+
+   color:$primary-color-300;
+}
+
+
+.text-green-300 {
+    color:$primary-color-300;
+
+}
+
+
+@screen xs {
+
+    
+.container {
+    max-width: 1350px !important;
+}
+
+
+}

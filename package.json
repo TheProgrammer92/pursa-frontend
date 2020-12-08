@@ -1,0 +1,34 @@
+{
+  "name": "pursa-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@bachdgvn/vue-otp-input": "^1.0.8",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.20.1",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.15.4",
+    "popper.js": "^1.16.1",
+    "vue": "^2.6.12",
+    "vue-password-strength-meter": "^1.7.2",
+    "vue-select": "^3.10.8",
+    "vue-tel-input": "^4.4.2",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/html-validator": "^0.1.4",
+    "@nuxtjs/tailwindcss": "^3.2.0",
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}

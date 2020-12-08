@@ -1,0 +1,127 @@
+
+@import 'update-pin-code.scss';
+
+
+.auth-container  {
+
+    display:flex;
+    background-color:transparent;
+   
+}
+.auth-layout {
+    background-color:$primary-color;
+
+}
+.auth {
+
+    background:transparent;
+
+}
+
+.auth-form {
+    border-radius: 15px;
+
+   background-color:white;
+   width:100%
+
+   
+
+}
+
+.header-auth {
+    display:flex;
+    justify-content: space-between;
+}
+.group-form {
+
+    width:100%
+}
+
+
+.vue-tel-input {
+    border-radius: 2px;
+    display: flex;
+    border: 1px solid #f1f1f1;
+    text-align: left;
+    background: #f1f1f1;
+    /* padding: 1px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+//vue-select
+
+.vs__dropdown-toggle {
+ 
+    background: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+//vue-password
+
+.Password {
+
+    max-width: 100% !important;
+}
+
+
+@screen xs {
+
+    .auth-form {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 2rem;
+    }
+
+    .auth-container  {
+
+            max-width: 100%;
+    
+    }
+  }
+  
+  @screen sm {
+
+    .auth-form {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 2rem;
+    }
+
+    .auth-container  {
+
+            max-width: 67%;
+    
+    }
+  }
+
+@screen md {
+   .auth-form {
+
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+   }
+
+   
+   
+   .auth-container  {
+
+    max-width: 33%;
+
+}
+}
+
+@screen lg {
+
+
+    .auth-container  {
+
+        max-width: 33%;
+    
+    }
+}

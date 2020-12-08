@@ -1,0 +1,89 @@
+.group-checkbox-text{
+
+    width: 75%;
+    margin: auto
+
+     
+}
+
+
+
+
+
+.group-pin-code-input  {
+
+    display: flex;
+    justify-content:space-around;
+}
+
+.group-checkbox-text-checkbox {
+
+    margin:0 !important;
+}
+
+
+@screen xs {
+
+
+   
+    .auth-form-pin-code {
+
+
+        width:100%;
+        background:white;
+        padding:1rem 2rem;
+   
+
+        .group-pin-code-input {
+
+            flex-direction:column;
+
+            .wrapper-pin-code-input {
+                display:flex;
+                flex-wrap:wrap;
+            }
+        }
+    }
+
+}
+
+@screen sm {
+
+
+    .footer-update-pin-code {
+
+        max-width: 100%;
+    }
+    .auth-form-pin-code {
+
+
+        width:80%;
+        background:white;
+        padding:1rem 1rem;
+
+        .group-pin-code-input {
+
+            flex-direction:row;
+        }
+    }
+}
+
+@screen md {
+    .auth-form-pin-code {
+
+
+        width:55%;
+        background:white;
+        padding:1rem 3rem;
+
+        .group-pin-code-input {
+
+            flex-direction:row;
+        }
+    }
+
+    .footer-update-pin-code {
+
+        max-width: 50%;
+    }
+}
